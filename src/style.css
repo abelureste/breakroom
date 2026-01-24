@@ -1,0 +1,125 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  --primary-color: #f4f2e6;
+  --primary-color-opaque: #f4f2e6cc;
+  --secondary-color: #1a1a1a;
+  color: #1a1a1a;
+}
+
+h1 {
+  font-size: 2.4em;
+  line-height: 1.1;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 1.2em;
+  line-height: 1.1;
+  margin: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;  
+  height: 100vh;  
+  margin: 0px;
+  background-image: url("/src/assets/breakroom_background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  padding: 10px;
+  text-align: center;
+  background-color: var(--primary-color-opaque);
+  border: 1px solid var(--secondary-color);
+}
+
+input {
+  background-color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  width: 100%;
+}
+
+form {
+  display: flex;
+  grid-template-columns: 2;
+  height: 25px;
+  padding-top: 15px;
+}
+
+button {
+  background-color: var(--secondary-color);
+  border: 0px;
+}
+
+button:hover {
+  background-color: #2a2a2a;
+  cursor: pointer;
+}
+
+.pageContent {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.joinOuterBox {
+  min-width: 25%;
+  height: 20%;
+  background-color: var(--primary-color-opaque);
+  border: 1px solid var(--secondary-color);
+  text-align: center;
+}
+
+.joinInnerBox {
+  justify-content: center;
+  margin: 20px;
+  height: 96%;
+}
+
+.joinNametext {
+  margin: 0px;
+}
+
+.joinButton {
+  padding: 5px 15px 5px 15px;
+}
+
+.mainOuterBox {
+  width: 75%;
+  height: 95%;
+  background-color: var(--primary-color-opaque);
+  border: 1px solid var(--secondary-color);
+  text-align: center;
+}
+
+.mainInnerBox {
+  margin: 20px;
+  height: 96%;
+}
+
+.chatBox {
+  margin-top: 20px;
+  padding: 10px;
+  height: 90%;
+  background-color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+  text-align: left;
+}
+
+.messageButton {
+  width: 120px;
+  margin-left: 15px;
+}
+
+.messageUsername {
+  margin: 0px 10px 0px 0px;
+}

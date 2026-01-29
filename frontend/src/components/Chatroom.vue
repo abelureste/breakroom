@@ -13,7 +13,9 @@ const personCount = ref(0)
     <div class="mainInnerBox">
       <h2>{{ personCount }} on break</h2>      
       <div class="chatBox">
-        hello
+        <p>hello</p>
+        <p>hello</p>
+        <p>hello</p>
       </div>
       <form>
         <p class="messageUsername">{{ clientUsername }}:</p>

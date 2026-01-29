@@ -5,10 +5,10 @@
 
 <template>
   <div class="joinOuterBox">
-    <div class="joinInnerBox">
+    <form class="joinInnerBox">
       <h3 class="joinNametext">my name is</h3>
       <input></input>
       <button class="joinButton">join</button>
-    </div>
+    </form>
   </div>
 </template>

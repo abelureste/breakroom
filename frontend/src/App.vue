@@ -12,8 +12,8 @@ import Join from './components/Join.vue';
       <h2>a single chatroom</h2>
     </nav>
     <div class="pageContent">
-      <!-- <Chatroom client-username="abelureste" /> -->
-      <Join />
+      <Chatroom client-username="abelureste" /> <!-- -->
+      <!-- <Join /> -->
     </div>
   </body>
 </template>
